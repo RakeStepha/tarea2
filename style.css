@@ -1,0 +1,185 @@
+body{
+    font-family: Arial;
+    font-size: 13px;
+    color: black;
+}
+
+header{
+
+    background-color: rgb(29, 245, 29);
+    display: flex;
+    justify-content:space-between;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p{
+ font-weight: 400px;
+ height: 114px;
+ line-height: 26px;  
+}
+
+.logo{
+
+    font-size: medium;
+    font-family:arial bold;
+
+}
+section{
+
+    border-bottom: 10px;
+}
+
+
+header nav{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+header ul{
+
+    display: flex;
+}
+
+header ul li{
+
+    margin-right: 10px;
+    list-style: none;
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    /*color: white;
+    */
+}
+
+header ul li:last-child{
+    margin-right: 0;
+    
+}
+
+main{
+
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+
+.home h2{
+
+color: indigo;
+
+}
+
+.figure-home{
+
+    display: flex;
+}
+.servicio h2{
+
+    color:fuchsia;
+}
+
+.figure-servicio{
+
+    display: flex;
+
+}
+.servicio ul li:nth-child(1){
+
+    color:red
+}
+
+.servicio ul li:nth-child(2){
+    color: blue;
+}
+
+.servicio ul li:nth-child(3){
+    color:darkkhaki;
+    
+}
+
+.servicio ul li:nth-child(4){
+
+    color:skyblue;
+}
+
+.portafolio h2{
+
+    color: greenyellow;
+}
+
+.figure-portafolio{
+
+    display: flex;
+}
+
+.portafolio ul li:nth-child(1){
+
+    color:#32a2e2
+}
+
+.portafolio ul li:nth-child(2){
+    color: rgb(255, 0, 170);
+}
+
+.portafolio ul li:nth-child(3){
+    color:rgb(224, 214, 75);
+    
+}
+
+.portafolio ul li:nth-child(4){
+
+    color:rgb(44, 24, 221);
+}
+
+.div .figure-portafolio{
+    border-left: 10px;
+}
+.contactos h2{
+    color: cyan;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 60px;
+}
+
+footer{
+background-color: rgb(22, 236, 22);
+color: white;
+padding: 15px 0px;
+display:flex;
+justify-content: space-between;
+
+}
+.footer2{
+
+    color:white;
+}
+.enviar{
+
+  color: green;  
+  margin-top: 50px;
+  margin-bottom: 160px;
+  width: 50px;
+  height: 50px;
+
+}
+ 
